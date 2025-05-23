@@ -21,9 +21,46 @@ div.judulCheckout {
     padding: 16px;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+
+div.menu {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 div.judulCheckout > p {
     color: aliceblue;
     text-align: center;
+    font-size: 22px;
+}
+
+p.info1 {
+    font-size: 30px;
+}
+
+p.info2 {
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+
+p.info3 {
+    font-size: 15px;
+}
+
+img.cover {
+    aspect-ratio: 2;
+    width: 100%;
+    object-fit: cover;
 }
