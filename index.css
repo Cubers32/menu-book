@@ -136,3 +136,15 @@ button.addSub > img {
 button.addSub {
     all: unset;
 }
+
+div.judulCheckout > button {
+    all: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: greenyellow;
+    padding: 16px;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
