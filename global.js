@@ -1,7 +1,7 @@
 var menus = [{
     title: "Avocado Pesto Salad",
     description: "Home-grown vegetables with load of avocado, topped with mouthwatering pesto salad",
-    photoUrl: "assets/salad.jpg",
+    photoUrl: "asset/salad.jpg",
     prices: [{
         label: "",
         price: 35
@@ -12,7 +12,7 @@ var menus = [{
 }, {
     title: "Triple Cheese Pizza",
     description: "Indulge yourself in this simple yet delicious delicacy",
-    photoUrl: "assets/pizza.jpg",
+    photoUrl: "asset/pizza.jpg",
     prices: [{
         label: "1 Slice",
         price: 15
@@ -23,7 +23,7 @@ var menus = [{
 }, {
     title: "Seasonal Wine",
     description: "A great meal becomes perfect when combined with a good wine",
-    photoUrl: "assets/wine.jpg",
+    photoUrl: "asset/wine.jpg",
     prices: [{
         label: "Glass",
         price: 100
@@ -34,7 +34,7 @@ var menus = [{
 }, {
     title: "Coffee",
     description: "The best coffee you can have from the land of Indonesia",
-    photoUrl: "assets/coffee.jpg",
+    photoUrl: "asset/coffee.jpg",
     prices: [{
         label: "Americano",
         price: 25

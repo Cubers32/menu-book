@@ -65,8 +65,9 @@ div.subMenu {
 div.buttonMenu {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    padding-right: 10px;
+    justify-content: space-between;
+    width: 100px;
+    padding-left: 20px;
 }
 
 div.subMenuInfo {
