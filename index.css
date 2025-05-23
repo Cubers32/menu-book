@@ -6,12 +6,16 @@ html {
     font-family: 'Barlow';
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
     width: 100%;
     color: #424242;
 }
+
+
 
 div.judulCheckout {
     display: flex;
@@ -38,7 +42,41 @@ div.menu {
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
 }
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+div.content > div {
+    padding: 0 30px;
+}
+
+div.subMenu {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+div.buttonMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+div.subMenuInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
 
 div.judulCheckout > p {
     color: aliceblue;
@@ -56,11 +94,45 @@ p.info2 {
 }
 
 p.info3 {
-    font-size: 15px;
+   font-size: 15px;
 }
+
+p.menuTitle {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+p.menuInfo {
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+p.subHarga {
+    font-size: 18px;
+}
+
+
 
 img.cover {
     aspect-ratio: 2;
     width: 100%;
     object-fit: cover;
+}
+
+div.content > img {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+button.addSub > img {
+    width: 15px;
+    height: auto;
+}
+
+
+
+button.addSub {
+    all: unset;
 }
